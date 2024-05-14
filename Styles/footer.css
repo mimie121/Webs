@@ -1,0 +1,65 @@
+/* footer styles */
+.footer{
+  background-color: #11122b;
+  color: #cbcbcb;
+  font-family: Ubuntu Condensed, Sans-serif;
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  flex-direction: column;
+  height:350px;
+  margin-top:-4px;
+  
+}
+.footer .logo-footer img{
+  width: 180px;
+  height: 100px;
+  /* filter: brightness(50%); */
+  opacity: 0.5;
+}
+
+.footer .footer-phone-hours span{
+/* margin-left: 10px;
+margin-right: 10px; */
+font-size: 1em;
+letter-spacing:2px;
+
+} 
+
+.footer .footer-phone-hours .hours{
+  font-size: 0.8em;
+  color:#cea135;
+  text-transform: uppercase;
+}
+
+.footer .link-wrapper{
+  margin-top: 40px;
+  margin-bottom: 40px;
+  width: 400px;
+}
+
+.footer .social-media-icons-wrapper{
+ margin-bottom: 40px;
+ width: 200px;
+ display:flex;
+ justify-content: space-between;
+ align-items: center;
+}
+
+.footer .social-media-icons-wrapper a{
+  font-size: 1.5em;
+  color:#cbcbcb;
+  transition:0.5s;
+  
+}
+
+.footer .social-media-icons-wrapper a:hover{
+  color:#cea135;
+  
+}
+
+.footer .copy-right-wrapper{
+  margin-bottom: 40px;
+  font-size: 0.7em;
+  color: #858585;
+}
